@@ -52,3 +52,21 @@ let authenticationStatus = isAuthenticated
   : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+let role = "Employee";
+let isEnrolled = true;
+let userService;
+
+if (role === "Employee") {
+  userService = "You have access to Dietary Services";
+} else if (role === "Employee" && isEnrolled) {
+  userService =
+    "You have access to Dietary Services and one-on-one interaction with a dietician";
+} else if (role === "Subscriber") {
+  userService = "You have partial access to Dietary Services";
+} else {
+  userService = "You must enrol or subscribe in order to use this facility";
+}
+
+console.log("Role:", role);
+console.log(userService);
