@@ -30,7 +30,7 @@ function showbooks() {
         <button id = "delete" onclick="deleteBook(${index})">Delete</button>`
   );
   document.getElementById("books").innerHTML = booksDiv.join("");
-  console.log(books);
+  // console.log(books);
 }
 
 function clearInputs() {
