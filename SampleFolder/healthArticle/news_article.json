@@ -1,0 +1,13 @@
+{
+  "articles": [
+    {
+      "title": "Eggs Are Good For You",
+      "description": "Discusses the importance of eggs in diet",
+      "story": [
+        "Eggs are an essential part of the diet",
+        "containing protien, omega-3, and leads to improved",
+        "levels of HDL and LDL cholesterol."
+      ]
+    }
+  ]
+}
